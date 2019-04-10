@@ -1,4 +1,3 @@
-//方法一：将链表中的数据放到数组中，倒序输出（能实现功能，但没啥意思）
 #include<stdio.h>
 #include<stdlib.h>
 #define N 1000
@@ -30,7 +29,7 @@ int main(int argc, char* argv[])
 		cur = tmp;				//移动当前节点
 		scanf("%d",&input);
 	}
-	//ListTraverse(head);   //调试用
+	//ListTraverse(head);
 	cur = head->next;
 	int i =0;
 	while(cur != NULL)
